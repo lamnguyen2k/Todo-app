@@ -1,0 +1,213 @@
+.wrapper {
+    height: 200px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.container-todo {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.title-todo {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.search {
+    margin: 40px;
+}
+
+.search-value {
+    width: 80%;
+    height: 25px;
+    border: 1px solid rgb(182, 168, 168);
+}
+
+.search-btn {
+    width: 15%;
+    height: 30px;
+    margin-left: 20px;
+    color: white;
+    background: #1890ff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+// Todo list
+
+.wrapper-todo {
+    min-height: 100px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.container-todo-list {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.todo-list {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 40px;
+}
+
+.container-value {
+    margin-top: 20px;
+    min-height: 100px;
+}
+
+.value {
+    color: rgb(51, 48, 48);
+    list-style: none;
+    padding-bottom: 30px;
+    min-height: 100px;
+}
+
+.btn-list {
+    display: flex;
+    height: 100%;
+    justify-content: end;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid #f0f0f0;
+}
+.list-todos {
+    display: flex;
+    align-items: start;
+    padding: 0 10px;
+    min-width: 100px;
+    min-height: 30px;
+}
+.list-todo {
+    min-width: 10%;
+}
+
+.btn-clear {
+    margin-right: 10px;
+    border: 1px solid rgb(182, 168, 168);
+    cursor: pointer;
+
+    &:hover {
+        background-color: white;
+        border: 1px solid red;
+        color: red;
+    }
+}
+
+.btn-left {
+    width: 30px;
+    height: 30px;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.25);
+    background-color: transparent;
+    border: 1px solid rgb(182, 168, 168);
+}
+.btn-number {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    margin: 0 10px;
+    color: #1890ff;
+    border: 1px solid #1890ff;
+}
+.btn-right {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.25);
+    border: 1px solid rgb(182, 168, 168);
+}
+
+.action-btn {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+// Tippy
+
+.box {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -100px;
+    width: 270px;
+    height: 90px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: rgba(0 0 0 / 12%) 0px 2px 12px;
+
+    &::after {
+        position: absolute;
+        content: '';
+        border: 10px solid;
+        border-color: #fff transparent transparent transparent;
+        top: 90px;
+        left: 127px;
+        box-shadow: transparent 10px 20px 12px;
+    }
+}
+
+.box-title {
+    display: flex;
+}
+
+.box-icon {
+    color: orange;
+    margin: 16px 5px 0 10px;
+}
+
+.box-btn {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    margin-left: 150px;
+}
+
+.box-btn-cancel {
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.box-btn-ok {
+    width: 40px;
+    height: 30px;
+    color: white;
+    background-color: #1890ff;
+    border: transparent;
+    cursor: pointer;
+}
+
+.switch {
+    margin-left: 80%;
+}
